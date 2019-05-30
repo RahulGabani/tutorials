@@ -1,0 +1,56 @@
+xpath two types:
+
+1.position xpath(absoulate xpath) start with single '/'
+2.relative xpath(attributes xpath) is always start with "//tagname[@attributeName='AttributeValue']
+//tagname[@attributeName='AttributeValue']
+or
+//*[@attributesName='AttributeValue'] means any tagname 
+0r
+//tagname[@attributeName or/and @attributeName='AttributeValue']
+
+
+when there are two match found then to decide one of them we need to
+(//tagname[@attributesName='AttributeValue'])[1/2];
+
+if attributes is keep on changing,then we need to change the sytax ofthe xpath
+
+//tagname[contains(@attibutesName,'repetitive attributevalue")]
+instead of contains we can put starts-with
+
+i.e //div[contains(@id,'js_')]
+//tagname[stats-with(@attibutesName,'repetitive attributevalue")]
+
+
+if there is only text;
+//tagname[contains(text(),'text')]
+
+2. CSS Selector:
+-Execution speed of CSS slector is faster than the X-path so many companies uses CSS selector
+
+- with X-path we can find any elemenets, but css selector we can not find every element
+
+tagname[attributename='attributeValue']
+or
+*[attributename='attributeValue']
+
+-Multiple Attributes
+tagname[attributename='attributeValue'][attributename='attributeValue']
+
+
+-Contains
+tagname[attributename*='attributeValue'] (Whateever value of attributeValue)
+
+-startWith
+tagname[attributename^='attributeValue'](Startwith any value of attributes)
+
+-Endswith
+tagname[attributename$='attributeValue']
+
+-To going forward
+tagname[attributename='attributeValue']>tag>tag i.e div[id='uos']>div>input
+
+-for only id
+#id
+
+- for only class
+.class(attributevalue)

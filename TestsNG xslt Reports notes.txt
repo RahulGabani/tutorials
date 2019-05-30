@@ -1,0 +1,31 @@
+for testng extent report
+
+-import build.xml file from nikul sir files
+-copy tesng.xml file from src to project level
+-create new package xslt
+-bring file testng-results.xsl from nikulsir files
+-bring saxon-8.7 and saxonLiasion  and Testng jars into SeleniumJar folder
+
+cd..
+cd..
+cd path
+ant clean
+ant compile
+ant run
+ant makexsltreports
+
+For Logging
+copy properties file into source folder
+
+Maven Project
+groupid= package
+artifactId= project name
+pom.xml is build file
+
+homework
+xml file read
+create extent report
+
+difference between maven and ant
+ant is used in java project/build file-build.xml
+and for maven we need to create maven project

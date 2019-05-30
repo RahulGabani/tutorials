@@ -1,0 +1,14 @@
+Two webservices
+1. SOAP-Simple Object Access Protocol
+2. REST
+
+SOAP http based
+SOAP Request
+1.EndPoint URL: done by DEV team
+
+2.Request(XML)
+<username>admin</username>
+<password>admin123</password>
+
+3. Getting back R esponse(XML)
+<status>success</status>
