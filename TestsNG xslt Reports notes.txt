@@ -1,5 +1,5 @@
 for testng extent report
-
+it 
 -import build.xml file from nikul sir files
 -copy tesng.xml file from src to project level
 -create new package xslt

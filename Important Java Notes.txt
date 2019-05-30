@@ -1,4 +1,4 @@
-xpath two types:
+Important xpath two types:
 
 1.position xpath(absoulate xpath) start with single '/'
 2.relative xpath(attributes xpath) is always start with "//tagname[@attributeName='AttributeValue']
