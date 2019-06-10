@@ -1,0 +1,24 @@
+Tell me about your project
+
+-2 lines about current company and role of yourself
+what is application/ responsibilities of yourself.
+this is webbased application built in java
+
+-Agile
+we are working in agile/2week sprint and releasing in 2 moths deadline
+we start writing testcases in test link and maintain it through this test management tool
+when developers develops application,we excute these testcases to verify appliication works fine
+we do automation of testcases in n+1 sprint .
+we are building framework with PageObjectModel in java,testng,maven for automation
+-explain about framwork how it builds in 2 lines
+-properties file as datafile
+-talk bout maven project and how you use that to build framewrok
+how you use reporting
+git we use as central repository and maintain  code
+-jenkins job for smoke saniity and regression
+
+-jira as bug tracking tool and project management tool
+
+-we follow one to one mapping (for each manual testcase it should have 1 automation test annotation)
+we integrate our framwwork with testlink by testlink api jars and when we
+automate the testcases it will update automatically in testlink.
